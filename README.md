@@ -13,7 +13,10 @@ Automation upgrade:
 
    ```
 If you need referral code:
+  ```bash
 ./pop --signup-by-referral-route f56c292db5871b0f
+
+   ```
 
 Manual upgrade, if automation failed:
 https://docs.pipe.network/devnet-2

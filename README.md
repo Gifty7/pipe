@@ -1,4 +1,4 @@
-If you took part in the Pipe Network Node Testnet, you can now upgrade your PoP Node from the Testnet to the Alpha Testnet (Devnet 2) 🕺
+If you took part in the Pipe Network Node Devnet, you can now upgrade your PoP Node from the Testnet to the Alpha Testnet (Devnet 2) 🕺
 
 Requirements:  
 ▫️ OS: Ubuntu/Debian

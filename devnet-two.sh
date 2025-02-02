@@ -15,16 +15,16 @@ fi
 echo "Stopping any DCDND service..."
 systemctl stop dcdnd && systemctl disable dcdnd
 
-echo "Creating $HOME/pipe-hca folder..."
-mkdir -p $HOME/pipe-hca
+echo "Creating $HOME/pipe-gifty folder..."
+mkdir -p $HOME/pipe-gifty
 
 echo "Please enter the link to the v2 binary download from email (must start with https):"
 read -r binary_url
 
 if [[ $binary_url == https* ]]; then
     echo "Downloading pop binary..."
-    wget -O $HOME/pipe-hca/pop "$binary_url"
-    chmod +x $HOME/pipe-hca/pop
+    wget -O $HOME/pipe-gifty/pop "$binary_url"
+    chmod +x $HOME/pipe-gifty/pop
     echo "Binary downloaded and made executable."
 else
     echo "Invalid URL. Please ensure the link starts with 'https'."
@@ -56,11 +56,11 @@ Wants=network-online.target
 
 [Service]
 User=$USER
-ExecStart=$HOME/pipe-hca/pop \
+ExecStart=$HOME/pipe-gifty/pop \
     --ram=$RAM \
     --pubKey $PUBKEY \
     --max-disk $DISK \
-    --cache-dir $HOME/pipe-hca/download_cache
+    --cache-dir $HOME/pipe-gifty/download_cache
 Restart=always
 RestartSec=5
 LimitNOFILE=65536
@@ -68,7 +68,7 @@ LimitNPROC=4096
 StandardOutput=journal
 StandardError=journal
 SyslogIdentifier=dcdn-node
-WorkingDirectory=$HOME/pipe-hca
+WorkingDirectory=$HOME/pipe-gifty
 
 [Install]
 WantedBy=multi-user.target

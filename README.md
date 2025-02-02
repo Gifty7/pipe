@@ -1,9 +1,11 @@
+If you took part in the Pipe Network Node Testnet, you can now upgrade your PoP Node from the Testnet to the Alpha Testnet (Devnet 2) 🕺
 
 Requirements:  
 ▫️ OS: Ubuntu/Debian
 ▫️ RAM: Minimum 4GB
 ▫️ Disk: Minimum 100GB
 ▫️ 24/7 internet connectivity required
+
 
 Automation upgrade:
   ```bash

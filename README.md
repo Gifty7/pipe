@@ -6,11 +6,14 @@ Requirements:
 ▫️ 24/7 internet connectivity required
 
 Automation upgrade:
-cd $HOME && wget https://raw.githubusercontent.com/Gifty7/pipe/main/devnet-two.sh && chmod +x devnet-two.sh && ./devnet-two.sh
+  ```bash
+   git clone https://github.com/airdropinsiders/Naoris-Auto-Bot.git
+   cd Naoris-Auto-Bot
+   ```
 
 
 Manual upgrade, if automation failed:
 https://docs.pipe.network/devnet-2
 
 
-x.com/amrit
+x.com/amrit12005

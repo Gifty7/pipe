@@ -18,6 +18,8 @@ If you need referral code:
 
    ```
 
+Update to v0.2.5 
+
   ```bash
    sudo systemctl stop pipe && cd $HOME/gifty7 && wget -O pop "https://dl.pipecdn.app/v0.2.5/pop" && chmod +x pop && sudo systemctl daemon-reload && 
 sudo systemctl restart pipe && journalctl -u pipe -fo cat
